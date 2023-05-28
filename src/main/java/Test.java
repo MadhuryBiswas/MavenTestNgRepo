@@ -1,0 +1,21 @@
+public class Test {
+    public static void main(String[] args) {
+        int[][] twoDimArray=new int[2][3];
+        twoDimArray[0][0]= 5;
+        twoDimArray[0][1]= 5;
+        twoDimArray[0][2]= 9;
+        twoDimArray[1][0]= 4;
+        twoDimArray[1][1]= 4;
+        twoDimArray[1][2]= 15;
+        //System.out.println(twoDimArray[1].length);
+for(int i=0;i<twoDimArray[i].length;i++){
+    for(int j=0;j<twoDimArray[i].length;j++){
+        System.out.println(twoDimArray[i][i]);
+    }
+    System.out.println();
+}
+
+
+
+    }
+}
